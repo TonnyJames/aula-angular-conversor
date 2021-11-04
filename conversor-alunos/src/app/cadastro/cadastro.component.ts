@@ -20,15 +20,12 @@ export class CadastroComponent implements OnInit {
     email :new FormControl('', Validators.compose([Validators.required,
        Validators.email])),
     data : new FormControl(''),
-    senha: new FormControl('',Validators.compose([Validators.required,
-       Validators.minLength(4),Validators.maxLength(8)])),
+    senha: new FormControl('',Validators.compose([Validators.required, Validators.minLength(4),Validators.maxLength(8)])),
   })
 
   constructor( private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-
-
 
 
   }
@@ -45,19 +42,4 @@ cadastratar(){
   console.log(this.formCadastro.get('senha')?.invalid)
   console.log(this.formCadastro, "meu formulario")
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

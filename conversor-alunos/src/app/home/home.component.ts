@@ -32,6 +32,21 @@ listarTodasMoedas(){
 
     this.lista.push(res.ARS)
     this.lista.push(res.USD)
+    this.lista.push(res.USDT)
+    this.lista.push(res.CAD)
+    this.lista.push(res.GBP)
+    this.lista.push(res.ARS)
+    this.lista.push(res.BTC)
+    this.lista.push(res.LTC)
+    this.lista.push(res.EUR)
+    this.lista.push(res.JPY)
+    this.lista.push(res.CHF)
+    this.lista.push(res.AUD)
+    this.lista.push(res.CNY)
+    this.lista.push(res.ILS)
+    this.lista.push(res.ETH)
+    this.lista.push(res.XRP)
+    this.lista.push(res.DOGE)
 
   })
 }

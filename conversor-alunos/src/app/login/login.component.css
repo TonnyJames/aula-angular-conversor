@@ -1,10 +1,17 @@
-.form-control{
-
-  width: 30%;
+.login{
+  margin: auto;
+  width: max-content;
+  padding-top: 110px;
 }
 
-.form-login{
-
- justify-content: center;
-
+.login input{
+  width: max-content;
+  padding-left: 120px;
+}
+body{
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: white;
 }

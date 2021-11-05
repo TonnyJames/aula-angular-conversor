@@ -38,7 +38,6 @@ export class CadastroComponent implements OnInit {
 
 
   cadastratar() {
-
     console.log(this.formCadastro.get('senha')?.invalid)
     console.log(this.formCadastro, "meu formulario")
   }

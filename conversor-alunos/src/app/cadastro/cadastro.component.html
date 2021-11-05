@@ -1,4 +1,7 @@
 <body>
+  <div>
+    <h3 class="title">Tonny Trambique Exchange</h3>
+</div>
 
   <div *ngIf="false">
     <b>Você já tem cadastro</b>
@@ -38,7 +41,7 @@
           <small *ngIf="formCadastro.get('senha')?.invalid" class="text-danger"> Coloque uma senha valída </small>
         </div>
       </div>
-      <button (click)="cadastratar();verificarData()" class="btn text-white bg-primary">Cadastrar</button>
+      <button (click)="cadastratar();verificarData()" [routerLink]="['/login']" routerLinkActive="router-link-active"  class="btn text-white bg-primary">Cadastrar</button>
     </form>
   </div>
 

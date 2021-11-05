@@ -1,17 +1,36 @@
-.login{
-  margin: auto;
-  width: max-content;
-  padding-top: 110px;
+.conteudo {
+  width           : 35%;
+  height          : 100%;
+  background-color: rgba(0, 0, 0, 0.761);
 }
 
-.login input{
-  width: max-content;
-  padding-left: 120px;
+.login {
+  padding-top : 200px;
+  padding-left: 25px;
+  width       : 85%;
+
 }
-body{
-  background-color: black;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  color: white;
+
+button {
+  background-color: rgb(211, 155, 12);
+}
+
+body {
+  background-image   : url(https://media3.giphy.com/media/MX2lLeuGdWABSTt8ie/giphy.gif?cid=ecf05e471xkjt7pjzrs5kwvli7801qib9jjfs53ylor4npbj&rid=giphy.gif&ct=g);
+  background-size    : 90%;
+  /* background-color: black; */
+  position           : absolute;
+  height             : 100%;
+  width              : 100%;
+  color              : white;
+}
+
+.title {
+  font-family     : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: seagreen;
+  width           : fit-content;
+  padding         : 20px;
+  font-style      : italic;
+  font-weight     : 1500;
+  font-size       : 30px;
 }
